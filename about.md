@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: El Wittmer
 ---
 
 <p class="message">
