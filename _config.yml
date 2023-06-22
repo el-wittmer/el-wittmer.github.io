@@ -1,23 +1,20 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
+gems: [jekyll, jekyll-gist]
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Elaina Wittmer
-tagline:          ''
-description:      ''
+tagline:          'Personal Site'
+description:      'testing testing'
 url:              http://el-wittmer.github.io
 baseurl:          /
 
 author:
-  name:           'Elaina Wittmer'
-  url:            http://el-wittmer.github.io
-
-paginate:         5
+  name:           Elaina Wittmer'
 
 # Custom vars
 version:          2.1.0
