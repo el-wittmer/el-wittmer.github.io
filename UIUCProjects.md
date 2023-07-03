@@ -1,18 +1,10 @@
 ---
-layout: default
-title: Personal Site
+layout: page
+title: CS Projects (UIUC)
 ---
 
-## About Me
-<img src="https://avatars.githubusercontent.com/u/106082110?s=400&u=2407a777bd3d2662868132c2f2e2e7bebdf74262&v=4" alt="Cartoon rendition of Elaina" width="200"/> Hi there! I'm Elaina, and I recently completed my Master's in Computer Science at the <a href="https://cs.illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> (UIUC) in May of 2023. My undergraduate degree was in Linguistics, which I completed at [Reed College](https://www.reed.edu/about-reed/) in 2019. Through that experience, I developed a love of working with unscructured data and being able to tell powerful stories through the power of computing. This passion brought me to the [iCAN](https://cs.illinois.edu/academics/graduate/ican) program at UIUC, a bridge program designed to broaden access to computing to include those from underrepresented backgrounds. 
+All project titles link to more information about the project, such as a project report, presentation, or website. These projects were all completed during my time at UIUC.
 
-All work presented here has been completed within the past two years during my time in iCAN or in the Master's program at UIUC.
-
-## DREAM Fellowship
-While in the iCAN program, I was fortunate to be a [DREAM](https://tech.mines.edu/dream/) Fellow and conduct research on the nature of scientific impact with [Dr. George Chacko](https://cs.illinois.edu/about/people/faculty/chackoge). I was able to devote 400 hours of work on an independent project of my choice through the support of the DREAM program. More information about this project, including my project blog, can be found [here](https://el-wittmer.github.io/dream). 
-
-## Completed Projects
-*All project titles link to more information about the project, such as a project report, presentation, or website.*
 ### Data & Information Systems
 - **[Impact Assessment of a Single Study](https://el-wittmer.github.io/dream)** -- Website
     - An evaluation of the metrics used to quantify the impact of a single scientific paper. See also: [DREAM Fellowship](#dream-fellowship). 
