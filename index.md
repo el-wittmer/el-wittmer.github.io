@@ -23,17 +23,17 @@ While in the iCAN program, I was fortunate to be a [DREAM](https://tech.mines.ed
 - **[Spawning Connections: The Early Days of Paul (1963)](http://el-wittmer.github.io/Paul_1963)** -- Website, Code Available
     - A spin-off project from my Impact Assessment project. I use the JavaScript D3 library to model the citation network of an influential paper in Coronary Heart Disease over its first three years of publication. 
 
-- **[Adaptive Recipe Book for Food Allergies](https://drive.google.com/file/d/1OpVPHScRWgr0Q2naWdUeWAxcO8T6mGns/view?usp=drive_link)** -- Report, Code Available in Private Repo
+- **[Adaptive Recipe Book for Food Allergies](/public/docs/PT.stage6.pdf)** -- Report, Code Available in Private Repo
     - A Django project which allows the user to search, delete, create, and edit recipes while keeping track of allergens within said recipes. A cool feature of this project is that newly added allergy information is retroactively applied to existing dataset entries, creating a richer dataset over time. 
     - Data storage for this project was provided by Google Cloud for Education who allocated credits to utilize their Google Cloud Platform for one semester.
 
 ### Artificial Intelligence
-- **[Design Recommendations for Human-AI Interaction in Image Generation](https://drive.google.com/file/d/1pcPoFqOXO5WyyaxGif4qyJ72yneCM5hV/view?usp=drive_link)**  -- Report
+- **[Design Recommendations for Human-AI Interaction in Image Generation](/public/docs/HCI_Project.pdf)**  -- Report
     - This experimental project evaluates prompt design choices leading to successful AI image generation. The results suggest UI/UX changes to both communicate the limitations of AI to end users while guiding them towards crafting more successful prompts.
 
-- **[Can ChatGPT Engineer Software?](https://drive.google.com/file/d/1P1v-4FqAa6j1NZYFmaZd7XFShPgtZ8l8/view?usp=drive_link)** -- Presentation, Code Available in Private Repo
+- **[Can ChatGPT Engineer Software?](/public/docs/ML4SE%20Milestone%20Slides.pdf)** -- Presentation, Code Available in Private Repo
     - This project evaluates ChatGPT performance on code generation, unit testing, bug detection, and more in both Python and Java. 
 
 ### Systems
-- **[Evaluation of Security Practices in Interdomain Routing](https://drive.google.com/file/d/1tCR5wKIDQftQKBXn3n9eG4IzN6lhFY4r/view?usp=drive_link)** -- Report
+- **[Evaluation of Security Practices in Interdomain Routing](/public/docs/CS438_Mini_Project.pdf)** -- Report
     - This report evaluates security concerns for common protocols used in Internet routing, what solutions are currently available, and cutting edge technologies which might replace current practices. 
