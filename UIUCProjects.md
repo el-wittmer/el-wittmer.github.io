@@ -23,9 +23,15 @@ All project titles link to more information about the project, such as a project
 - **[Design Recommendations for Human-AI Interaction in Image Generation](/public/docs/HCI_Project.pdf)**  -- Report
     - This experimental project evaluates prompt design choices leading to successful AI image generation. The results suggest UI/UX changes to both communicate the limitations of AI to end users while guiding them towards crafting more successful prompts.
 
-- **[Can ChatGPT Engineer Software?](/public/docs/ML4SE%20Milestone%20Slides.pdf)** -- Presentation, Code Available in Private Repo
+- **[Can ChatGPT Engineer Software?](/public/docs/ML4SE_Milestone_Slides.pdf)** -- Presentation, Code Available in Private Repo
     - This project evaluates ChatGPT performance on code generation, unit testing, bug detection, and more in both Python and Java. 
 
-### Systems
+- **[Bias in Natural Language Processing](/public/docs/CS447_Literature_Review__Social_Bias_in_NLP.pdf)** -- Report
+    - A literature review on areas of social bias within Natural Language Processing Research. This review focuses on identifying various sources and types of social bias which exist in NLP research from data collection to algorithm design. 
+
+### Security
 - **[Evaluation of Security Practices in Interdomain Routing](/public/docs/CS438_Mini_Project.pdf)** -- Report
     - This report evaluates security concerns for common protocols used in Internet routing, what solutions are currently available, and cutting edge technologies which might replace current practices. 
+
+- **[Student Security Perceptions at UIUC](/public/docs/US%26P%20Final%20Presentation.pdf)** -- Presentation
+    - Presentation on UIUC student body survey findings related to cybersecurity perceptions and attitudes. Do students find cybersecurity important? Do they believe other students find it important? Where are students looking to obtain more security knowledge? 
