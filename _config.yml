@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      pygments
-gems: [jekyll, jekyll-gist]
+gems: ['jekyll', 'jekyll-gist', 'jekyll-paginate']
 
 # Permalinks
 permalink:        pretty
@@ -17,6 +17,9 @@ author:
 
 # Custom vars
 version:          2.1.0
+
+paginate:         5
+paginate_path: ./page:num/
 
 github:
   repo:           https://github.com/el-wittmer/el-wittmer.github.io
