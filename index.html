@@ -9,7 +9,7 @@ title: Personal Site
 <h2>DREAM Fellowship</h2>
 <p>While in the iCAN program, I was fortunate to be a <a href="https://tech.mines.edu/dream/">DREAM</a> Fellow and conduct research on the nature of scientific impact with <a href="https://cs.illinois.edu/about/people/faculty/chackoge">Dr. George Chacko</a>. I was able to devote 400 hours of work on an independent project of my choice through the support of the DREAM program. More information about this project, including my project blog, can be found <a href="https://el-wittmer.github.io/dream">here</a>. </p>
 
-<h2>Field Notes</h2>
+<h2 id="blog">Field Notes</h2>
 <div class="posts">
     {% for post in paginator.posts %}
     <div class="post">
@@ -18,8 +18,11 @@ title: Personal Site
       </h3>
   
       <span class="post-date">{{ post.date | date_to_string }}</span>
-  
-      {{ post.content | markdownify }}
+      {% if post.content.size > post.excerpt.size %}
+        {{ post.excerpt | markdownify }}
+        <p><a href="{{ post.url }}">Read more...</a></p>
+      {% endif %}
+      
     </div>
     {% endfor %}
   </div>
