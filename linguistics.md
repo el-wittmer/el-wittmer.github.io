@@ -19,6 +19,5 @@ Shona has a strict Consonant-Vowel syllable structure, which leads speakers to i
 
 In March of 2019, I had the opportunity to present at the conference Formal Approaches to South Asian Languages (FASAL). My talk, Phonetic reduction effects in Malayalam, focused on consonant lenition and intonational boundaries. Malayalam is a language most commonly spoken in Kerala state in India. 
 
-[Link to Conference Proceedings](https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/article/view/203)
-
-[Link to Presentation pdf](./public/docs/FASAL9%20-%20Presentation.pdf)
+- [Link to Conference Proceedings](https://ojs.ub.uni-konstanz.de/jsal/index.php/fasal/article/view/203)
+- [Link to Presentation pdf](./public/docs/FASAL9%20-%20Presentation.pdf)
