@@ -56,7 +56,6 @@ html {
   html {
     font-size: 20px;
   }
-
 }
 
 body {
@@ -332,7 +331,6 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
-  text-align: justify;
 }
 
 /* Blog post or page title */
@@ -431,26 +429,9 @@ a.pagination-item:hover {
   }
 }
 
-/*My CSS*/
-.grid-container {
-	display: grid; /* Informs HTML that we are using CSS Grid */
-	grid-template-columns: auto auto auto; 
-  grid-template-rows: auto auto auto;
-}
-
-.image {
-	grid-column: span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-.text {
-  grid-column: span 2;
-  display: flex;
-  text-align: justify;
-  align-items: center;
+img {
+  width: 175px;
+  margin: 10px;
 }
 
 .icon-bar {
@@ -458,7 +439,6 @@ a.pagination-item:hover {
   grid-template-columns: auto auto auto;
 }
 
-.icon-link {
+.icon {
   justify-content: space-between;
-  align-items: end;
 }
