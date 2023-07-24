@@ -11,8 +11,6 @@ My bachelor thesis at Reed College focused on mental models of consonants betwee
 
 Shona has a strict Consonant-Vowel syllable structure, which leads speakers to interpret syllables as the smallest sound unit. In contrast, English syllables have more variety in the number of consonants which can preceed or follow the vowel. When presented with Shona words played in reverse, English monolinguals perceived consonant onsets as being comprised of smaller units which can be broken up and rearranged while Shona speakers treated onsets as units in their own right. That is, "chk" was perceived by English speakers as "ch" + "k", but Shona speakers treated this sequence as "chk." 
 
-[Link to pdf](./public/docs/thesis.pdf)
-
 ## Conference Presentations
 
 ### FASAL 9
