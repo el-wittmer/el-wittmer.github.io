@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CS Projects (UIUC)
+title: CS Projects @ UIUC
 ---
 
 All project titles link to more information about the project, such as a project report, presentation, or website. These projects were all completed during my time at UIUC.

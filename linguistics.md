@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Linguistics
+title: Linguistics Research
 ---
 
 I'm not active in Linguistics research anymore, but am always willing to chat. Feel free to reach out to my email address, which is located in the sidebar. 
