@@ -9,8 +9,6 @@ All project titles link to more information about the project, such as a project
 - **[Impact Assessment of a Single Study](https://el-wittmer.github.io/dream)** -- Website
     - An evaluation of the metrics used to quantify the impact of a single scientific paper. Funded by the [DREAM Program](https://tech.mines.edu/dream/).
     - Analysis was conducted using PostgreSQL and Python.
-    - *This work was extended by students in the [CS STARS program at UIUC, Fall 2022 cohort](https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors/participants).*
-
 
 - **[Spawning Connections: The Early Days of Paul (1963)](http://el-wittmer.github.io/Paul_1963)** -- Website, Code Available
     - A spin-off project from my Impact Assessment project. I use the JavaScript D3 library to model the citation network of an influential paper in Coronary Heart Disease over its first three years of publication. 
