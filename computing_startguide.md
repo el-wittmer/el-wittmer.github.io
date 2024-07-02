@@ -11,17 +11,17 @@ Since starting my journey into Computer Science, I've collected a variety of res
 
 ## Programming
 
-### Subject-Specific
+### References
+- [W3 Schools](https://www.w3schools.com/)
+    - I used W3 schools to self-learn JavaScript at the suggestion of a professor. I wouldn't recommend it for learning a whole language from scratch, but W3 schools is an extensive resource for a variety of programming languages. 
+    
+### Courses
 [comment]: <> (- [Data Science DISCOVERY](https://discovery.cs.illinois.edu/))
 - [Select Star SQL](https://selectstarsql.com/)
     - A good resource for beginner SQL learners using real-life data. Provides enough information to get started but shouldn't be viewed as a complete guide. 
 - \[$\] [The Complete Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
     - A great resource for anyone who wants to learn and practice Web Development from scratch or from existing experience. Multiple capstone projects are required to complete this course.  
     - This course does cost money but you can often find it on sale. Listed at $110 USD, I got it for around $17 USD.
-
-### Multi-language Resources
-- [W3 Schools](https://www.w3schools.com/)
-    - I used W3 schools to self-learn JavaScript at the suggestion of a professor. I wouldn't recommend it for learning a whole language from scratch, but W3 schools is an extensive resource for a variety of programming languages. 
 - [Codecademy](https://www.codecademy.com)
     - I used Codecademy to learn C/C++, but they offer free courses on a variety of programming languages. It's best used to supplement existing programming knowledge -- I wouldn't recommend using it to learn programming fundamentals. 
 
