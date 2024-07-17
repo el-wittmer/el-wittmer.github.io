@@ -5,7 +5,9 @@ title: Personal Site
 
 <h2>About Me</h2>
 <img src="/public/image/profile.jpg" alt="Cartoon image of Elaina" style="float: right; padding-left: 20px; margin-top: 0px"/>
-<p>Hi there! I'm Elaina and I'm an <b>Instructional Designer</b> at the University of Illinois Urbana-Champaign in the <b>School of Computing and Data Science</b>.</p>
+<p>Hi there! I'm Elaina and I'm an <b>Instructional Designer</b> at the University of Illinois Urbana-Champaign in the <b>Siebel School of Computing and Data Science</b>. I also hold a Master's degree in Computer Science from the same institution. 
+</p>
+<p>I'm happy to chat about available roles in the Data Sciences or to any prospective/current iCAN students. The easiest way to contact me is through <a href="https://www.linkedin.com/in/el-wittmer/">LinkedIn.</a></p>
 <hr />
 <h2 id="blog">Field Notes</h2>
 <div class="posts">
@@ -24,3 +26,21 @@ title: Personal Site
     </div>
     {% endfor %}
   </div>
+
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

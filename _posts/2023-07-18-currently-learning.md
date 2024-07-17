@@ -19,5 +19,5 @@ I started this course two weeks ago and skipped the Introductory Python section 
 #### Bonus
 While not part of any certificate, I've been learning a lot about creating GitHub Pages websites with Jekyll themes. I've worked with Jekyll sites before, but this is the first site I've tried modifying to better fit my needs. Since Jekyll is a Ruby gem, I've had to learn a bit about Ruby to be able to manage all the relevant dependencies. Working on this site has been a lot of fun and it's been enlightening to see that I've learned enough to be able to get everything working how I'd like it to. I've tried a couple of portfolio websites over the years, but knowing more about web development has given me more tools to be able to play around and change things as I go.
 
-##### TL;DR
+#### TL;DR
 I've been learning a lot about web development this summer and next I'll be adding probability and statistics fundamentals. 

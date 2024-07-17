@@ -442,7 +442,7 @@ img {
 
 .icon-bar {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 60px 60px;
 }
 
 .icon {

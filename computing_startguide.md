@@ -7,13 +7,13 @@ Since starting my journey into Computer Science, I've collected a variety of res
 
 ## Math
 - [Khan Academy](https://www.khanacademy.org/)
-    - I recommend Khan Academy to anyone who finds themselves rusty in math and needs extra practice. I found it incredibly useful in the early stages of my CS education, as I hadn't taken a math course in years. I'm currently using it to refresh my knowledge of Linear Algebra. 
+    - I recommend Khan Academy to anyone who finds themselves rusty in math and needs extra practice. I found it incredibly useful in the early stages of my CS education, as I hadn't taken a math course in years. 
 
 ## Programming
 
 ### References
 - [W3 Schools](https://www.w3schools.com/)
-    - I used W3 schools to self-learn JavaScript at the suggestion of a professor. I wouldn't recommend it for learning a whole language from scratch, but W3 schools is an extensive resource for a variety of programming languages. 
+    - I used W3 schools to quickly self-learn JavaScript at the suggestion of a professor. I wouldn't recommend it for learning a whole language from scratch, but W3 schools is an extensive resource for a variety of programming languages. 
     
 ### Courses
 [comment]: <> (- [Data Science DISCOVERY](https://discovery.cs.illinois.edu/))
