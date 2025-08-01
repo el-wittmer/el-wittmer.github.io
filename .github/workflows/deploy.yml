@@ -1,0 +1,33 @@
+name: Deploy portfolio to GitHub Pages
+
+on: 
+  push: 
+    branches:
+      - main
+
+jobs:
+  build-deploy: 
+    runs-on: ubuntu-latest
+
+    steps:
+      # checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # setup node
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+        with: 
+          node-version: 18
+      
+      # install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # build project
+      - name: Build project
+        run: npm run build
+
+      # deploy project
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
