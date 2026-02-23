@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Full-Stack Development",
     subtitle: "Book Journal",
-    img: "/src/assets/bookjournal.png",
+    img: "/bookjournal.png",
     description:
       "A full-stack web application for tracking, reviewing, and sharing books.",
     skills: "Node.js+Express / PostgreSQL / AWS",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Data Visualization",
     subtitle: "Conference Room Utilization",
-    img: "/src/assets/heatmap.png",
+    img: "/heatmap.png",
     description:
       "Interactive dashboards showing room usage patterns and occupancy trends across office spaces. Designed to help teams optimize scheduling.",
     skills:
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Data Pipeline",
     subtitle: "Scheduling Conflict Detection",
-    img: "/src/assets/powerautomate.png",
+    img: "/powerautomate.png",
     description:
       "Automated workflow to identify scheduling conflicts across multiple calendars and notify stakeholders.",
     skills: "Microsoft > Power Automate, Azure Applications",
@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Front-End Development",
     subtitle: "Interactive Map",
-    img: "/src/assets/spacebrowser.png",
+    img: "/spacebrowser.png",
     description:
       "An interactive map for exploring room assignments and utilization. Added tap tools and highlighting to explore data for rooms with many desk assignments",
     skills: "Python > bokeh, pandas / Git",
