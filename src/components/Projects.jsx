@@ -26,13 +26,13 @@ const projects = [
   },
   {
     title: "Data Pipeline",
-    subtitle: "Scheduling Conflict Detection",
+    subtitle: "Conference Room Utilization",
     img: "/powerautomate.png",
     description:
       "Automated workflow to identify scheduling conflicts across multiple calendars and notify stakeholders.",
     skills: "Microsoft > Power Automate, Azure Applications",
-    link: "#",
-    class: "wip",
+    link: "/pipeline_notes.pdf",
+    class: "",
     button_text: "View Notes"
   },
   {
