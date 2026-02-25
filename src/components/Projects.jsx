@@ -8,7 +8,9 @@ const projects = [
     description:
       "A full-stack web application for tracking, reviewing, and sharing books.",
     skills: "Node.js+Express / PostgreSQL / AWS",
-    link: "https://bookjournal.wittyswords.com",
+    link: "https://github.com/el-wittmer/book-reviews",
+    class: "",
+    button_text: "View code"
   },
   {
     title: "Data Visualization",
@@ -19,6 +21,8 @@ const projects = [
     skills:
       "Microsoft > Power Automate, PowerBI, Azure Applications",
     link: "#",
+    class: "wip",
+    button_text: "View Notes"
   },
   {
     title: "Data Pipeline",
@@ -28,6 +32,8 @@ const projects = [
       "Automated workflow to identify scheduling conflicts across multiple calendars and notify stakeholders.",
     skills: "Microsoft > Power Automate, Azure Applications",
     link: "#",
+    class: "wip",
+    button_text: "View Notes"
   },
   {
     title: "Front-End Development",
@@ -36,7 +42,9 @@ const projects = [
     description:
       "An interactive map for exploring room assignments and utilization. Added tap tools and highlighting to explore data for rooms with many desk assignments",
     skills: "Python > bokeh, pandas / Git",
-    link: "#",
+    link: "https://github.com/uiuc-csid/siebel_space_browser",
+    class: "",
+    button_text: "Private Repository"
   },
 ];
 
@@ -53,10 +61,10 @@ function Projects() {
               <img src={project.img} />
               <p>{project.description}</p>
               <p>
-                <b>Skills:</b> {project.skills}
+                <b>Tech Stack:</b> {project.skills}
               </p>
               <a href={project.link}>
-                <button className="secondary-button">Demo Coming Soon</button>
+                <button className={`secondary-button ${project.class}`} >{project.button_text}</button>
               </a>
             </div>
           ))}
