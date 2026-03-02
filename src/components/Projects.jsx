@@ -8,9 +8,9 @@ const projects = [
     description:
       "A full-stack web application for tracking, reviewing, and sharing books.",
     skills: "Node.js+Express / PostgreSQL / AWS",
-    link: "https://github.com/el-wittmer/book-reviews",
+    link: "https://bookjournal.wittyswords.com",
     class: "",
-    button_text: "View code"
+    button_text: "View Project"
   },
   {
     title: "Data Visualization",
