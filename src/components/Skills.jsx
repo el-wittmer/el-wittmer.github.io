@@ -4,19 +4,23 @@ function Skills() {
   const skillCategories = [
     {
       category: "Languages",
-      skills: ["Python", "JavaScript", "PostgreSQL"]
+      skills: ["Python", "JavaScript", "SQL languages"]
     },
     {
       category: "Data & Visualization",
-      skills: ["Pandas", "PowerBI"]
+      skills: ["Pandas", "PostgreSQL", "MongoDB"]
     },
-    {
-      category: "Frontend",
-      skills: ["React", "Bootstrap", "HTML/CSS"]
-    },
+  {
+    category: "Frameworks & Libraries",
+    skills: [
+      "React",
+      "Node.js",
+      "Express"
+    ]
+  },
     {
       category: "Tools & Platforms",
-      skills: ["Git", "AWS", "Azure", "Power Automate"]
+      skills: ["Git & GitHub", "AWS", "Azure"]
     }
   ];
 

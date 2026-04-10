@@ -5,18 +5,13 @@ function About() {
     <section id="about" className="about">
       <h2>About Me</h2>
       <p>
-        Hi! I love exploring data and turning complexity into clarity. 
-        I specialize in <b>full stack development, data visualization, and building data pipelines</b>, 
-        using tools like <b>Python, PostgreSQL, React, Pandas, and PowerBI</b> to uncover patterns 
-        and communicate insights effectively. I thrive on <b>learning quickly 
-        and iterating on solutions</b> to make data understandable and actionable. 
+        Hey! I'm always Elaina and conditionally El.
       </p>
       <p>
-        I’m now focused on <b>Data Science and Human-Computer Interaction</b>, 
-        creating visualizations and tools that help people make confident decisions.
+         My background is in linguistics, psychology, and computer science -- currently, this means I operate in the intersection of the human and the computer. I'm working in <b>full-stack web development</b> and <b>user-centered data visualization</b> and communication. I aim for an inclusive user-centered approach that includes WCAG guidelines and beyond. 
       </p>
       <p>
-        I'm seeking roles where I can bridge data science and design—building tools and visualizations that make complex data accessible and actionable for non-technical users.
+        Welcome! My recent projects can be found below.
       </p>
     </section>
   );
