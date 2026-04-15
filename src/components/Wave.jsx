@@ -7,7 +7,6 @@ function Wave({ color = "#F9F4EE", bgColor = "#ffffff", className = "" }) {
       className={`wave-container ${className}`}
       style={{ backgroundColor: bgColor }}
     >
-      <div className="wave-container">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 160 1440 160">
           <path
             fill={color}
@@ -16,7 +15,6 @@ function Wave({ color = "#F9F4EE", bgColor = "#ffffff", className = "" }) {
           ></path>
         </svg>
       </div>
-    </div>
   );
 }
 

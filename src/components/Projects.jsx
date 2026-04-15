@@ -14,29 +14,18 @@ const projects = [
     alt: "UI of book journal application showing a grid containing book covers and details"
   },
   {
-    title: "Data Visualization",
-    subtitle: "Conference Room Utilization",
-    img: "/heatmap.png",
+    title: "Navigational Kiosk",
+    subtitle: "Digital Signage & Front-End Developer",
+    img: "/kiosk.png",
     description:
-      "Interactive dashboards showing room usage patterns and occupancy trends across office spaces. Designed to help teams optimize scheduling.",
+      "Navigational kiosk created using a combination of purchased software and custom components.",
     skills:
-      "Microsoft > Power Automate, PowerBI, Azure Applications",
-    link: "#",
-    class: "wip",
+      "Python, Database, HTML/CSS, React",
+    link: "/kiosk_docs.pdf",
+    class: "",
     button_text: "View Notes",
-    alt: "UI of conference room data project showing a heat map of rooms and their frequency of use"
+    alt: "UI of navigational kiosk showing the map of Siebel Center and events information"
   },
-  // {
-  //   title: "Data Pipeline",
-  //   subtitle: "Conference Room Utilization",
-  //   img: "/powerautomate.png",
-  //   description:
-  //     "Automated workflow to identify scheduling conflicts across multiple calendars and notify stakeholders.",
-  //   skills: "Microsoft > Power Automate, Azure Applications",
-  //   link: "/pipeline_notes.pdf",
-  //   class: "",
-  //   button_text: "View Notes"
-  // },
   {
     title: "Front-End Development",
     subtitle: "Interactive Map",
