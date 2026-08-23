@@ -4,50 +4,63 @@ const projects = [
   {
     title: "Full-Stack Development",
     subtitle: "Book Journal",
-    img: "/bookjournal.png",
+    img: "/images/bookjournal.png",
     description:
       "A full-stack web application for tracking, reviewing, and sharing books.",
-    skills: "Node.js / PostgreSQL / AWS",
+    skills: "Node.js, PostgreSQL, AWS",
     link: "https://bookjournal.wittyswords.com",
     class: "",
     button_text: "View Project",
     alt: "UI of book journal application showing a grid containing book covers and details"
   },
   {
+    title: "Full-Stack Development / Data Science",
+    subtitle: "Enrollment Predictions",
+    img: "/",
+    description:
+      "Projecting future enrollment in CS courses to optimize resource allocation.",
+    skills: "Python / React.js",
+    link: "",
+    class: "wip",
+    button_text: "Notes in Progress",
+    alt: ""
+  },
+    {
+    title: "Full-Stack Development",
+    subtitle: "Interactive Building Map",
+    img: "/images/spacebrowser.png",
+    description:
+      "Designed and built public-facing map interface for navigational use within the CS building at Illinois.",
+    skills: "Python > pandas, React Router, GitHub Actions, AWS",
+    link: "https://spaces.siebelschool.illinois.edu/kiosk",
+    class: "",
+    button_text: "View Project",
+    alt: "Floor plan for Thomas M. Siebel Center for Computer Science"
+  },
+  {
+    title: "Feature Development",
+    subtitle: "Live Event Name Display",
+    img: "/",
+    description:
+      "",
+    skills: "Python WebSockets, HTML/CSS, AWS",
+    link: "#",
+    class: "wip",
+    button_text: "Notes in Progress",
+    alt: "Landing page for name display application showing instructions for use"
+  },
+  {
     title: "Data Visualization",
     subtitle: "Conference Room Utilization",
-    img: "/heatmap.png",
+    img: "/images/heatmap.png",
     description:
       "Interactive dashboards showing room usage patterns and occupancy trends across office spaces. Designed to help teams optimize scheduling.",
     skills:
       "Microsoft > Power Automate, PowerBI, Azure Applications",
-    link: "#",
-    class: "wip",
+    link: "/pipeline_notes.pdf",
+    class: "",
     button_text: "View Notes",
     alt: "UI of conference room data project showing a heat map of rooms and their frequency of use"
-  },
-  // {
-  //   title: "Data Pipeline",
-  //   subtitle: "Conference Room Utilization",
-  //   img: "/powerautomate.png",
-  //   description:
-  //     "Automated workflow to identify scheduling conflicts across multiple calendars and notify stakeholders.",
-  //   skills: "Microsoft > Power Automate, Azure Applications",
-  //   link: "/pipeline_notes.pdf",
-  //   class: "",
-  //   button_text: "View Notes"
-  // },
-  {
-    title: "Front-End Development",
-    subtitle: "Interactive Map",
-    img: "/spacebrowser.png",
-    description:
-      "An interactive map for exploring room assignments and utilization. Added tap tools and highlighting to explore data for rooms with many desk assignments",
-    skills: "Python > bokeh, pandas / Git",
-    link: "https://github.com/uiuc-csid/siebel_space_browser",
-    class: "",
-    button_text: "Private Repository",
-    alt: "UI of a facilities map with overlaying squares showing occupancy information."
   },
 ];
 

@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <CustomNavbar/>
-      <main style={{ paddingTop: "70px" }}>
+      <main style={{ overflowY: "hidden" }}>
         <Hero />
         <Wave color="#C5A27D" bgColor="#ECE0D1"/> 
 
