@@ -4,8 +4,8 @@ import Wave from "./Wave";
 function Hero() {
   return (
     <section id="hero" className="hero">
-      <img src="/images/profile.jpg" alt="Cartoon drawing of Elaina"></img>
-      <h1>Elaina Wittmer</h1>
+      {/* <img src="/images/profile.jpg" alt="Cartoon drawing of Elaina"></img> */}
+      <h1>Elaina\Wittmer</h1>
       <p>Human-Centered Computing &gt;&gt; Bridging human behavior and technology</p>
       <a href="https://github.com/el-wittmer" aria-label="GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#C26A4A" class="bi bi-github" viewBox="0 0 16 16" alt="GitHub">

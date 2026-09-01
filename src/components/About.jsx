@@ -6,12 +6,9 @@ function About() {
       <h2>About Me</h2>
       <p>
         Hey! I'm always Elaina and conditionally El.
-      </p>
+      </p><br />
       <p>
-        I'm a multi-disciplinary full-stack web developer who cares about building tools that work for the people who rely on them. 
-      </p>
-      <p>
-        Welcome! My recent projects can be found below.
+        I'm a multi-disciplinary full-stack web developer who cares about building tools that actually work for the people who rely on them. 
       </p>
     </section>
   );
