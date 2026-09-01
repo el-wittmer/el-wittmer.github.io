@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -17,22 +18,12 @@ function App() {
       <CustomNavbar/>
       <main style={{ overflowY: "hidden" }}>
         <Hero />
-        <Wave color="#C5A27D" bgColor="#ECE0D1"/> 
-
         <About />
-        <Wave color="#F9F4EE" bgColor="#C5A27D"/> 
-
         <Projects />
-        <Wave color="#ECE0D1" bgColor="#F9F4EE"/>  
-
-        <Education />
-        <Wave color="#F9F4EE" bgColor="#ECE0D1"/> 
-
+        <Experience />
         <Skills />
-        <Wave color="#ECE0D1" bgColor="#F9F4EE"/>  
-
-        <Contact />
-        <Wave color="#C5A27D" bgColor="#ECE0D1"/>  
+        <Education />
+        <Contact /> 
 
       </main>
       <Footer />

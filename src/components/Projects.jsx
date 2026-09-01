@@ -74,12 +74,12 @@ function Projects() {
                 <span className="project-meta">
                   {project.skills}
                 </span>
-
+                <br />
                 <a
                   href={project.link}
                   className={`project-link ${project.class}`}
                 >
-                  {project.button_text} <span>→</span>
+                  → {project.linkText}
                 </a>
               </div>
             </div>

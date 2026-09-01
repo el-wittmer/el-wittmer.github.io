@@ -25,14 +25,22 @@
   --line-soft: #2a2422;
   --line-dashed: #504844;
 
-  --content-width: 1100px;
+  --content-width: 1050px;
   --text-width: 720px;
+
+  /*
+   * Large margins keep the content visually pulled inward
+   * without actually centering it.
+   */
+  --page-margin: 15vw;
 
   --radius: 0px;
 }
 
 
-/* ---------- Reset ---------- */
+/* =========================================================
+   Reset
+   ========================================================= */
 
 *,
 *::before,
@@ -57,7 +65,9 @@ body {
 }
 
 
-/* ---------- General elements ---------- */
+/* =========================================================
+   General Elements
+   ========================================================= */
 
 img {
   display: block;
@@ -69,40 +79,47 @@ h2,
 h3,
 h4 {
   margin: 0 0 0.75rem;
+
   font-family: "Cormorant Garamond", Georgia, serif;
   font-weight: 500;
 }
 
-/* Primary headings */
 h1,
 h2 {
-  color: #f2ece2;
+  color: #fffaf2;
 }
 
 h1 {
   font-size: clamp(2.8rem, 6vw, 5rem);
   line-height: 0.95;
   letter-spacing: -0.02em;
+  color: #ffffff;
 }
 
 h2 {
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
   letter-spacing: -0.01em;
+  color: #fffaf2;
 }
 
-/* Secondary headings */
 h3 {
-  color: #ded6ca;
+  color: #eee7dc;
   font-size: 1.35rem;
   line-height: 1.2;
 }
 
-/* Metadata / technical labels */
 h4 {
-  color: #ffffff;
+  color: #c8beb2;
 
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
   font-size: 0.85rem;
   font-weight: 500;
   line-height: 1.2;
@@ -163,13 +180,24 @@ ul {
   align-items: center;
 
   min-height: 56px;
-  padding: 0.75rem 2rem;
+
+  /*
+   * Align navbar with the main page content.
+   */
+  padding: 0.75rem var(--page-margin);
 
   background: rgba(17, 14, 14, 0.96);
 
   border-bottom: 1px solid var(--line);
 
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
   font-size: 0.8rem;
   letter-spacing: 0.04em;
 }
@@ -182,7 +210,7 @@ ul {
 .hero {
   position: relative;
 
-  padding: 9rem 2rem 7rem;
+  padding: 9rem var(--page-margin) 7rem;
 
   background:
     linear-gradient(
@@ -191,21 +219,26 @@ ul {
       var(--bg-raised) 100%
     );
 
-  text-align: center;
+  text-align: left;
 
   border-bottom: 1px dashed var(--line-dashed);
 }
 
 .hero::before {
-  content: "01";
-
   position: absolute;
   top: 2rem;
-  left: 2rem;
+  left: var(--page-margin);
 
   color: var(--paper-dim);
 
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
   font-size: 0.7rem;
   letter-spacing: 0.1em;
 }
@@ -214,7 +247,7 @@ ul {
   width: 6rem;
   height: 6rem;
 
-  margin: 0 auto 2rem;
+  margin: 0 0 2rem;
 
   border-radius: 0;
 
@@ -224,13 +257,17 @@ ul {
 }
 
 .hero h1 {
+  width: 100%;
   max-width: 850px;
-  margin: 0 auto 1.25rem;
+
+  margin: 0 0 1.25rem;
 }
 
 .hero p {
+  width: 100%;
   max-width: 650px;
-  margin: 0 auto;
+
+  margin: 0;
 
   color: var(--paper-muted);
 
@@ -243,7 +280,7 @@ ul {
 
 
 /* =========================================================
-   Section structure
+   Section Structure
    ========================================================= */
 
 .about,
@@ -253,7 +290,11 @@ ul {
 .contact {
   position: relative;
 
-  padding: 6rem 2rem;
+  /*
+   * Same left margin everywhere.
+   * Content is deliberately NOT centered.
+   */
+  padding: 6rem var(--page-margin);
 
   border-bottom: 1px dashed var(--line-dashed);
 }
@@ -271,7 +312,7 @@ ul {
 
 
 /* =========================================================
-   Section labels
+   Section Labels
    ========================================================= */
 
 .about::before,
@@ -281,13 +322,21 @@ ul {
 .contact::before {
   display: block;
 
+  width: 100%;
   max-width: var(--content-width);
 
-  margin: 0 auto 1.5rem;
+  margin: 0 0 1.5rem;
 
   color: var(--paper-dim);
 
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
   font-size: 0.7rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -299,20 +348,19 @@ ul {
    ========================================================= */
 
 .about {
-  text-align: center;
-}
-
-.about::before {
-  content: "// about";
+  text-align: left;
 }
 
 .about p {
+  width: 100%;
   max-width: var(--text-width);
-  margin: 0 auto;
+
+  margin: 0;
 
   color: var(--paper-muted);
   font-size: 1.25rem;
 }
+
 
 /* =========================================================
    Projects — Editorial / Technical
@@ -323,41 +371,45 @@ ul {
   text-align: left;
 }
 
-.projects::before {
-  content: "// selected work";
-}
-
 .projects h2 {
+  width: 100%;
   max-width: var(--content-width);
-  margin: 0 auto 3.5rem;
+
+  margin: 0 0 3.5rem;
 
   color: #f5eee4;
 }
 
 
-/* ---------- Project list ---------- */
+/* ---------- Project List ---------- */
 
 .project-cards {
   display: flex;
   flex-direction: column;
 
+  width: 100%;
   max-width: var(--content-width);
-  margin: 0 auto;
+
+  margin: 0;
 
   border-top: 1px solid var(--line);
 }
 
 
-/* ---------- Individual project ---------- */
+/* ---------- Individual Project ---------- */
 
 .project-card {
-  display: grid;
-  grid-template-columns: 90px 1fr;
+  position: relative;
 
-  column-gap: 2rem;
-  row-gap: 0.75rem;
+  display: block;
 
-  padding: 2.75rem 0;
+  width: 100%;
+
+  /*
+   * Left padding reserves space for the project number.
+   * The rest of the card remains wide.
+   */
+  padding: 2.75rem 2rem 2.75rem 6rem;
 
   background: transparent;
 
@@ -380,12 +432,13 @@ ul {
 }
 
 
-/* ---------- Project number ---------- */
+/* ---------- Project Number ---------- */
 
 .project-card::before {
-  content: counter(project);
+  position: absolute;
 
-  grid-row: 1 / span 4;
+  top: 2.9rem;
+  left: 0;
 
   color: var(--paper-dim);
 
@@ -399,34 +452,10 @@ ul {
 
   font-size: 0.7rem;
   letter-spacing: 0.08em;
-
-  counter-increment: project;
 }
 
 
-/* Start numbering */
-.project-cards {
-  counter-reset: project;
-}
-
-
-/* ---------- Image ---------- */
-
-.project-card img {
-  width: 100%;
-  max-width: 240px;
-  height: auto;
-
-  margin: 0 0 0.5rem;
-
-  border: 1px solid var(--line);
-  border-radius: 0;
-
-  opacity: 0.9;
-}
-
-
-/* ---------- Title ---------- */
+/* ---------- Project Title ---------- */
 
 .project-card h3 {
   margin-bottom: 0.25rem;
@@ -438,10 +467,12 @@ ul {
 }
 
 
-/* ---------- Description ---------- */
+/* ---------- Project Description ---------- */
 
 .project-card p {
+  width: 100%;
   max-width: 700px;
+
   margin-bottom: 1rem;
 
   color: var(--ink-muted);
@@ -451,7 +482,7 @@ ul {
 }
 
 
-/* ---------- Technology / metadata ---------- */
+/* ---------- Technology / Metadata ---------- */
 
 .project-meta {
   color: var(--paper-dim);
@@ -470,7 +501,7 @@ ul {
 }
 
 
-/* ---------- Project link ---------- */
+/* ---------- Project Link ---------- */
 
 .project-card a {
   display: inline-block;
@@ -492,10 +523,6 @@ ul {
   text-transform: uppercase;
 }
 
-.project-card a::after {
-  content: "  →";
-}
-
 .project-card a:hover {
   color: var(--paper);
 }
@@ -514,53 +541,11 @@ ul {
 
 
 /* =========================================================
-   Responsive
-   ========================================================= */
-
-@media (max-width: 768px) {
-  .project-card {
-    grid-template-columns: 45px 1fr;
-
-    column-gap: 1rem;
-
-    padding: 2rem 0;
-  }
-
-  .project-card h3 {
-    font-size: 1.45rem;
-  }
-
-  .project-card p {
-    font-size: 1rem;
-  }
-
-  .project-card img {
-    max-width: 200px;
-  }
-}
-
-@media (max-width: 480px) {
-  .project-card {
-    grid-template-columns: 35px 1fr;
-    column-gap: 0.75rem;
-  }
-
-  .project-card img {
-    max-width: 100%;
-  }
-}
-
-
-/* =========================================================
    Education
    ========================================================= */
 
 .education {
-  text-align: center;
-}
-
-.education::before {
-  content: "// education";
+  text-align: left;
 }
 
 .education h2 {
@@ -569,12 +554,16 @@ ul {
 
 .education-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+
+  width: 100%;
+  max-width: 900px;
+
+  margin: 0;
 
   gap: 1px;
-
-  max-width: 900px;
-  margin: 0 auto;
 
   background: var(--line);
   border: 1px solid var(--line);
@@ -614,11 +603,7 @@ ul {
    ========================================================= */
 
 .skills {
-  text-align: center;
-}
-
-.skills::before {
-  content: "// technical stack";
+  text-align: left;
 }
 
 .skills h2 {
@@ -627,52 +612,52 @@ ul {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
-  gap: 1px;
-
+  grid-template-columns: 1fr; /* Forces a single column mode */
+  width: 100%;
   max-width: var(--content-width);
-  margin: 0 auto;
-
+  margin: 0;
+  gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);
 }
 
+@media (min-width: 1450px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
 .skill-category {
   padding: 1.5rem;
-
   background: var(--bg-raised);
-
   text-align: left;
 }
 
 .skill-category h3 {
   margin-bottom: 1rem;
-
   color: var(--paper);
-
   font-size: 1.1rem;
 }
 
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
-
   gap: 0.4rem;
 }
 
 .skill-tag {
   padding: 0.3rem 0.55rem;
-
   background: transparent;
-
   border: 1px dotted var(--line-dashed);
-
   border-radius: 0;
-
   color: var(--paper-muted);
-
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
   font-size: 0.72rem;
 }
 
@@ -682,16 +667,14 @@ ul {
    ========================================================= */
 
 .contact {
-  text-align: center;
-}
-
-.contact::before {
-  content: "// contact";
+  text-align: left;
 }
 
 .contact p {
+  width: 100%;
   max-width: 600px;
-  margin: 0 auto 1.5rem;
+
+  margin: 0 0 1.5rem;
 }
 
 
@@ -708,7 +691,14 @@ ul {
 
   border-radius: 0;
 
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
   font-size: 0.75rem;
   letter-spacing: 0.03em;
 
@@ -766,7 +756,14 @@ footer {
 
   text-align: center;
 
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
   font-size: 0.7rem;
   letter-spacing: 0.04em;
 }
@@ -777,20 +774,24 @@ footer {
    ========================================================= */
 
 @media (max-width: 768px) {
+  :root {
+    --page-margin: 2rem;
+  }
+
   body {
     font-size: 17px;
   }
 
   .navbar {
-    padding: 0.7rem 1rem;
+    padding: 0.7rem var(--page-margin);
   }
 
   .hero {
-    padding: 6rem 1.5rem 5rem;
+    padding: 6rem var(--page-margin) 5rem;
   }
 
   .hero::before {
-    left: 1.5rem;
+    left: var(--page-margin);
   }
 
   .about,
@@ -798,21 +799,39 @@ footer {
   .education,
   .skills,
   .contact {
-    padding: 4.5rem 1.25rem;
+    padding: 4.5rem var(--page-margin);
   }
 
   .about p {
     font-size: 1.1rem;
   }
 
-  .project-cards,
+  .project-card {
+    width: 100%;
+
+    padding: 2rem 1rem 2rem 3.5rem;
+  }
+
+  .project-card::before {
+    top: 2.15rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.45rem;
+  }
+
+  .project-card p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .project-card img {
+    max-width: 200px;
+  }
+
   .education-content,
   .skills-grid {
     grid-template-columns: 1fr;
-  }
-
-  .project-card {
-    padding: 1.5rem;
   }
 
   .primary-button,
@@ -822,8 +841,50 @@ footer {
 }
 
 
+@media (max-width: 480px) {
+  :root {
+    --page-margin: 1.25rem;
+  }
+
+  .navbar {
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+  }
+
+  .hero {
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+  }
+
+  .about,
+  .projects,
+  .education,
+  .skills,
+  .contact {
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+  }
+
+  .hero::before {
+    left: var(--page-margin);
+  }
+
+  .project-card {
+    padding: 1.75rem 0.5rem 1.75rem 2.75rem;
+  }
+
+  .project-card::before {
+    top: 1.9rem;
+  }
+
+  .project-card img {
+    max-width: 100%;
+  }
+}
+
+
 /* =========================================================
-   Reduced motion
+   Reduced Motion
    ========================================================= */
 
 @media (prefers-reduced-motion: reduce) {
@@ -838,6 +899,10 @@ footer {
   }
 }
 
+/* =========================================================
+   Heading Color Overrides
+   Keep headings bright against the dark background.
+   ========================================================= */
 
 h1,
 h2,
