@@ -11,7 +11,7 @@
 
   --paper: #f2ece2;
   --paper-muted: #b8afa4;
-  --paper-dim: #817970;
+  --paper-dim: #9d938a;
 
   --heading: #f2ece2;
 
@@ -60,7 +60,7 @@ body {
   color: var(--ink);
 
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
 }
 
@@ -94,6 +94,7 @@ h1 {
   line-height: 0.95;
   letter-spacing: -0.02em;
   color: #ffffff;
+  overflow-wrap: anywhere;
 }
 
 h2 {
@@ -120,7 +121,7 @@ h4 {
     Consolas,
     monospace;
 
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 500;
   line-height: 1.2;
 
@@ -141,6 +142,12 @@ a {
 a:hover {
   color: var(--paper);
   text-decoration: underline;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--accent-bright);
+  outline-offset: 4px;
 }
 
 ul {
@@ -198,8 +205,17 @@ ul {
     Consolas,
     monospace;
 
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.04em;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  font-size: 1rem;
+}
+
+.navbar .nav-link {
+  padding-block: 0.65rem;
 }
 
 
@@ -274,6 +290,32 @@ ul {
   font-size: 1.2rem;
 }
 
+.hero p + p {
+  margin-top: 0.25rem;
+}
+
+.hero .icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 3.75rem;
+  height: 3.75rem;
+  margin-top: 1.25rem;
+
+  color: #c26a4a;
+}
+
+.hero .icon-link:hover {
+  color: var(--accent-bright);
+}
+
+.hero .icon-link svg {
+  width: 2.75rem;
+  height: 2.75rem;
+  fill: currentColor;
+}
+
 .wave-container {
   display: none;
 }
@@ -297,6 +339,7 @@ ul {
   padding: 6rem var(--page-margin);
 
   border-bottom: 1px dashed var(--line-dashed);
+  scroll-margin-top: 5rem;
 }
 
 .about,
@@ -359,6 +402,10 @@ ul {
 
   color: var(--paper-muted);
   font-size: 1.25rem;
+}
+
+.about p + p {
+  margin-top: 1.25rem;
 }
 
 
@@ -463,7 +510,7 @@ ul {
   color: var(--paper);
 
   font-size: 1.7rem;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 
@@ -481,6 +528,28 @@ ul {
   line-height: 1.65;
 }
 
+.experience-list {
+  max-width: 700px;
+  margin: 0 0 1.25rem;
+  padding-left: 1.35rem;
+
+  list-style: disc;
+}
+
+.experience-list .project-description {
+  margin-bottom: 0.65rem;
+  padding-left: 0.25rem;
+
+  color: var(--ink-muted);
+
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.experience-list .project-description::marker {
+  color: var(--accent-bright);
+}
+
 
 /* ---------- Technology / Metadata ---------- */
 
@@ -495,7 +564,7 @@ ul {
     Consolas,
     monospace;
 
-  font-size: 0.7rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   letter-spacing: 0.03em;
 }
@@ -506,7 +575,8 @@ ul {
 .project-card a {
   display: inline-block;
 
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
+  padding: 0.45rem 0;
 
   color: var(--accent-bright);
 
@@ -518,7 +588,8 @@ ul {
     Consolas,
     monospace;
 
-  font-size: 0.7rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -593,7 +664,7 @@ ul {
 
   color: var(--paper-dim);
 
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-style: italic;
 }
 
@@ -636,7 +707,7 @@ ul {
 .skill-category h3 {
   margin-bottom: 1rem;
   color: var(--paper);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .skill-tags {
@@ -658,7 +729,8 @@ ul {
     Monaco,
     Consolas,
     monospace;
-  font-size: 0.72rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 
@@ -684,7 +756,9 @@ ul {
 
 .primary-button,
 .secondary-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
 
   padding: 0.65rem 1.25rem;
   margin: 0.5rem;
@@ -699,7 +773,8 @@ ul {
     Consolas,
     monospace;
 
-  font-size: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
   letter-spacing: 0.03em;
 
   cursor: pointer;
@@ -712,13 +787,14 @@ ul {
 
 .primary-button {
   background: var(--accent);
-  color: #fff;
+  color: var(--bg);
 
   border: 1px solid var(--accent);
 }
 
 .primary-button:hover {
   background: var(--accent-bright);
+  color: var(--bg);
   border-color: var(--accent-bright);
 
   text-decoration: none;
@@ -764,7 +840,8 @@ footer {
     Consolas,
     monospace;
 
-  font-size: 0.7rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -779,7 +856,7 @@ footer {
   }
 
   body {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
 
   .navbar {

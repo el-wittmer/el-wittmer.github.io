@@ -4,7 +4,7 @@ const projects = [
     category: "Full-Stack Development",
     title: "Book Journal",
     description:
-      "A full-stack web application for tracking, reviewing, and sharing books.",
+      "Designed and built the full-stack (frontend and backend), PostgreSQL data model, and AWS deployment to support personal book tracking and shared reviews.",
     skills: "Node.js · PostgreSQL · AWS",
     link: "https://bookjournal.wittyswords.com",
     linkText: "View Project",
@@ -13,17 +13,14 @@ const projects = [
     category: "Full-Stack Development · Data Science",
     title: "Enrollment Predictions",
     description:
-      "A data-driven tool for projecting future enrollment in computer science courses and supporting resource planning.",
+      "Processed four years of enrollment data in Python and built a React interface for exploring historical patterns and comparing forecasting approaches.",
     skills: "Python · React · Pandas",
-    link: "",
-    linkText: "Notes in Progress",
-    wip: true,
   },
   {
     category: "Full-Stack Development",
     title: "Interactive Building Map",
     description:
-      "A public-facing interactive map designed to support navigation and wayfinding within the Siebel Center for Computer Science.",
+      "Rebuilt a limited Bokeh prototype in React, integrated live room data through Microsoft Graph, and automated AWS deployments with GitHub Actions.",
     skills: "React · Python · Pandas · AWS · GitHub Actions",
     link: "https://spaces.siebelschool.illinois.edu/kiosk",
     linkText: "View Project",
@@ -32,17 +29,14 @@ const projects = [
     category: "Feature Development",
     title: "Live Event Name Display",
     description:
-      "A real-time event management application for displaying and managing attendee names during large-scale events.",
-    skills: "Python · WebSockets · React · AWS",
-    link: "",
-    linkText: "Notes in Progress",
-    wip: true,
+      "Re-architected an inherited event tool as a reusable React and Express application with Entra ID authentication, queue recovery, roster search, and event check-in.",
+    skills: "React · Express · Entra ID · REST APIs",
   },
   {
     category: "Data Visualization",
     title: "Conference Room Utilization",
     description:
-      "Interactive dashboards visualizing room usage patterns and occupancy trends to support more effective scheduling and space planning.",
+      "Created an Azure-authenticated Power Automate pipeline that retrieves room-calendar data through Microsoft Graph, stores it in SharePoint, and supplies Power BI dashboards.",
     skills: "Power Automate · Power BI · Azure",
     link: "/pipeline_notes.pdf",
     linkText: "View Notes",
@@ -75,12 +69,14 @@ function Projects() {
                   {project.skills}
                 </span>
                 <br />
-                <a
-                  href={project.link}
-                  className={`project-link ${project.class}`}
-                >
-                  → {project.linkText}
-                </a>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    className={`project-link ${project.class}`}
+                  >
+                    → {project.linkText}
+                  </a>
+                )}
               </div>
             </div>
           </article>
