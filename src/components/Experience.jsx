@@ -55,6 +55,9 @@ function Projects() {
             <div className="project-content">
               <div className="project-heading">
                 <h3>{project.title}</h3>
+                <p className="experience-organization">
+                  {project.organization}
+                </p>
               </div>
 
               {project.description && (
