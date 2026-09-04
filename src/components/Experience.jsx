@@ -37,6 +37,7 @@ const projects = [
       "University of Illinois Urbana-Champaign, Siebel School of Computing and Data Science",
     description: [
       "Conducted independent data-science research using Python, PostgreSQL, and cluster computing to analyze and manage datasets containing more than one million records.",
+      "Created visualizations, project reports, presentations, and technical documentation to communicate findings and support future research.",
     ],
     skills: "May 2022 - Aug 2022",
   },

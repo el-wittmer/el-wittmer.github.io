@@ -4,7 +4,7 @@ const projects = [
     category: "Full-Stack Development",
     title: "Book Journal",
     description:
-      "Designed and built the full-stack (frontend and backend), PostgreSQL data model, and AWS deployment to support personal book tracking and shared reviews.",
+      "Designed and built a full-stack book-tracking application, including its PostgreSQL data model, authentication workflow, and AWS deployment.",
     skills: "Node.js · PostgreSQL · AWS",
     link: "https://bookjournal.wittyswords.com",
     linkText: "View Project",
