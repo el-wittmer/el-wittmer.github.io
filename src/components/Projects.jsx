@@ -71,6 +71,9 @@ function Projects() {
             <div className="project-content">
               <div className="project-heading">
                 <h4>{project.title}</h4>
+                {project.badge && (
+                  <span className="project-badge">{project.badge}</span>
+                )}
               </div>
 
               {project.description && (

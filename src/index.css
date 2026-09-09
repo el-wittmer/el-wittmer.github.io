@@ -504,6 +504,40 @@ ul {
 
 /* ---------- Project Title ---------- */
 
+.project-heading {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  margin-bottom: 1.25rem;
+}
+
+.project-heading h4 {
+  margin-bottom: 0;
+}
+
+.project-badge {
+  padding: 0.2rem 0.55rem;
+
+  color: var(--accent-bright);
+  background: rgba(183, 107, 77, 0.1);
+  border: 1px solid var(--accent);
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace;
+
+  font-size: 0.65rem;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .project-card h3 {
   margin-bottom: 0.25rem;
 
