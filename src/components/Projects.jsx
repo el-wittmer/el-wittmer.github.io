@@ -6,6 +6,7 @@ const projects = [
     description:
       "Designed and built a full-stack book-tracking application, including its PostgreSQL data model, authentication workflow, and AWS deployment.",
     skills: "Node.js · PostgreSQL · AWS",
+    badge: "Personal",
     link: "https://bookjournal.wittyswords.com",
     linkText: "View Project",
   },
@@ -15,6 +16,7 @@ const projects = [
     description:
       "Processed four years of enrollment data in Python and built a React interface for exploring historical patterns and comparing forecasting approaches.",
     skills: "Python · React · Pandas",
+    badge: "Professional",
   },
   {
     category: "Full-Stack Development",
@@ -22,6 +24,7 @@ const projects = [
     description:
       "Rebuilt a limited Bokeh prototype in React, integrated live room data through Microsoft Graph, and automated AWS deployments with GitHub Actions.",
     skills: "React · Python · Pandas · AWS · GitHub Actions",
+    badge: "Professional",
     link: "https://spaces.siebelschool.illinois.edu/kiosk",
     linkText: "View Project",
   },
@@ -31,6 +34,7 @@ const projects = [
     description:
       "Re-architected an inherited event tool as a reusable React and Express application with Entra ID authentication, queue recovery, roster search, and event check-in.",
     skills: "React · Express · Entra ID · REST APIs",
+    badge: "Professional",
   },
   {
     category: "Data Visualization",
@@ -38,8 +42,19 @@ const projects = [
     description:
       "Created an Azure-authenticated Power Automate pipeline that retrieves room-calendar data through Microsoft Graph, stores it in SharePoint, and supplies Power BI dashboards.",
     skills: "Power Automate · Power BI · Azure",
+    badge: "Professional",
     link: "/pipeline_notes.pdf",
     linkText: "View Notes",
+  },
+  {
+    category: "Research Project",
+    title: "Breadth vs. Width Metrics in Scientific Research",
+    description:
+      "Analyzed a dataset of 1.5 million publications to explore the relationship between breadth and width metrics in scientific research, including their correlation with citation counts and publication impact.",
+    skills: "Python · Pandas · PostgreSQL · Cluster Computing",
+    badge: "Student Research",
+    link: "https://el-wittmer.github.io/dream",
+    linkText: "View Project Blog",
   },
 ];
 
