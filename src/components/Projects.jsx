@@ -22,7 +22,7 @@ const projects = [
     category: "Full-Stack Development",
     title: "Interactive Building Map",
     description:
-      "Rebuilt a limited Bokeh prototype in React, integrated live room data through Microsoft Graph, and automated AWS deployments with GitHub Actions.",
+      "Rebuilt a limited Bokeh project in React, integrated ground truth room data through Microsoft Graph, and automated AWS deployments with GitHub Actions.",
     skills: "React · Python · Pandas · AWS · GitHub Actions",
     badge: "Professional",
     link: "https://spaces.siebelschool.illinois.edu/kiosk",
