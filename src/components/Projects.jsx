@@ -1,14 +1,14 @@
 
 const projects = [
   {
-    category: "Full-Stack Development",
-    title: "Book Journal",
+    category: "Front-End Development",
+    title: "Currency Converter & Budget Tracker",
     description:
-      "Designed and built a full-stack book-tracking application, including its PostgreSQL data model, authentication workflow, and AWS deployment.",
-    skills: "Node.js · PostgreSQL · AWS",
-    badge: "Personal",
-    link: "https://bookjournal.wittyswords.com",
-    linkText: "View Project",
+      "An application specifically for my partner and myself, as we earn money in different currencies. This application allows us to visualize spending buckets in both USD and CAD, with real-time exchange rates from Frankfurter.app.",
+    skills: "React · Supabase · APIs",
+    link: "https://github.com/el-wittmer/two-loonies",
+    linkText: "View Repository",
+    badge: "Personal"
   },
   {
     category: "Full-Stack Development · Data Science",
@@ -25,7 +25,6 @@ const projects = [
       "Rebuilt a limited Bokeh project in React, integrated ground truth room data through Microsoft Graph, and automated AWS deployments with GitHub Actions.",
     skills: "React · Python · Pandas · AWS · GitHub Actions",
     badge: "Professional",
-    link: "https://spaces.siebelschool.illinois.edu/kiosk",
     linkText: "View Project",
   },
   {
